@@ -15,7 +15,7 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 
 ## Installation
 
-You should be able to install this fine with any neovim plugin manager. (If you can't, let me know via an Issue or PR)
+You should be able to install this fine with any neovim plugin manager.
 
 ### packer
 
@@ -43,8 +43,9 @@ set-option -ga terminal-overrides ',xterm-256color:Tc'
 
 Note: this plugin is currently written in vimscript, but there are plans to convert to lua in the near future!
 
-Contributions to get the syntax highlighting working everywhere are absolutely
-welcome. If you're new to vim colorschemes, here's some tips!
+Contributions to get the syntax highlighting working everywhere are absolutely welcome. Feel free to open an issue if you need help as well :)
+
+If you're new to vim colorschemes, here's some tips!
 
 To see hex colors highlighted in neovim, I recommend installing [nvim-colorizer.lua].
 
