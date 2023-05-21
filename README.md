@@ -70,8 +70,21 @@ If you're already in a file in neovim, and the highlighting doesn't look quite r
 but you're not sure what the variable is called, try some of these steps below:
 
 ### New in neovim `0.9.0` and up
-You can now move your cursor over a word and then type `:Inspect` to get highlights for both your LSP and treesitter in one go :)
+You can now move your cursor over a word and then type `:Inspect` to get highlights for both your LSP and treesitter in one go :) You can check out `:h lsp-semantec-highlight` for more info.
 
+If you find that a highlight from your LSP semantec highlights is incorrect, you can disable it with an autocommand. Here's an example of disabling the semantec highlighting for variables/parameters in a `Dockerfile`:
+
+```lua
+-- autocommand to disable lsp semantic highlighting for parameter/variable in 
+-- Dockerfile because it competes with treesitter and is worse
+vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter"}, {
+  pattern = {"Dockerfile"},
+  callback = function()
+        vim.api.nvim_set_hl(0, '@lsp.type.parameter.dockerfile', {})
+        vim.api.nvim_set_hl(0, '@lsp.type.variable.dockerfile', {})
+    end,
+})
+```
 
 ### Prior to neovim `0.9.0`
 
