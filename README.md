@@ -23,6 +23,22 @@ You should be able to install this fine with any neovim plugin manager.
 use {'space-chalk/spacechalk.nvim'}
 ```
 
+### lazy
+
+```lua
+{
+   'space-chalk/spacechalk.nvim',
+    lazy = false, -- loaded during startup since it's the main colorscheme
+    priority = 1000, -- load this before all other start plugins
+    config = function()
+        -- set the colorscheme here
+        vim.cmd.colorscheme('spacechalk')
+        vim.g.colors_name = 'spacechalk'
+    end,
+}
+```
+For more info on how to configure plugins via lazy, checkout [folke/lazy.nvim#-plugin-spec](https://github.com/folke/lazy.nvim#-plugin-spec).
+
 ## Setup
 You can of course use vimscript instead of lua, but for those new to neovim, this is what you want to do:
 
@@ -39,7 +55,7 @@ set-option -g default-terminal "xterm-256color"
 set-option -ga terminal-overrides ',xterm-256color:Tc'
 ```
 
-## Contributing and Troubleshooting
+# Contributing and Troubleshooting
 
 Note: this plugin is currently written in vimscript, but there are plans to convert to lua in the near future!
 
@@ -49,10 +65,17 @@ If you're new to vim colorschemes, here's some tips!
 
 To see hex colors highlighted in neovim, I recommend installing [nvim-colorizer.lua].
 
-### Get the current highlighting for a given variable/filetype
-If you're already in a file in vim, and the highlighting doesn't look quite right,
-but you're not sure what the variable is called, you can run the following command:
+## Get the current highlighting for a word/filetype
+If you're already in a file in neovim, and the highlighting doesn't look quite right, 
+but you're not sure what the variable is called, try some of these steps below:
 
+### New in neovim `0.9.0` and up
+You can now move your cursor over a word and then type `:Inspect` to get highlights for both your LSP and treesitter in one go :)
+
+
+### Prior to neovim `0.9.0`
+
+This will show all highlights for the current file you have open:
 ```vim
 :highlight
 ```
@@ -72,14 +95,12 @@ It may also be helpful to check out more about syntax/colors with:
 :help syntax
 ```
 
-If you're using [nvim-treesitter], I _highly_ recommend installing [nvim-treesitter/playground], as it can be really helpful for debugging a treesitter highlighting issue. Once installed, you can run the following to get the current highlight group under your cursor:
+#### nvim-treesitter
+If you're using [nvim-treesitter] prior to neovim version `0.9.0`, I _highly_ recommend installing [nvim-treesitter/playground], as it can be really helpful for debugging a treesitter highlighting issue. Once installed, you can run the following to get the current highlight group under your cursor:
 
 ```vim
 :TSHighlightCapturesUnderCursor
 ```
-
-Finally, [vivify]'s a useful tool for learning what highlight variables are called.
-
 
 <!-- external links -->
 [barbar]: https://github.com/romgrk/barbar.nvim "tabline"
@@ -90,4 +111,3 @@ Finally, [vivify]'s a useful tool for learning what highlight variables are call
 [nvim-colorizer.lua]: https://github.com/norcalli/nvim-colorizer.lua "colorizer for neovim"
 [nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter "treesitter for nvim" 
 [nvim-treesitter/playground]: https://github.com/nvim-treesitter/playground "debug tool for nvim-treesitter"
-[vivify]: http://bytefluent.com/vivify/ "browswer based vim highlight inspector"
