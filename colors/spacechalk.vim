@@ -108,6 +108,7 @@ highlight Directory            guifg=#737aa2
 highlight Property             guifg=#f7fb53
 highlight PreProc              guifg=#5cc9fd
 highlight Type                 guifg=#d092fc
+" -- I think Identifier is most often used for variables?
 highlight Identifier           guifg=#5cc9fd
 highlight Function             guifg=#f7fb53 cterm=underline
 highlight Include              guifg=#bdd8ff
@@ -166,6 +167,14 @@ highlight @text.title          guifg=#C1FF87 guibg=#414868 gui=bold
 highlight @text.literal        guifg=#fdcd36
 highlight @text.quote          guifg=#737aa2 cterm=italic gui=italic
 highlight @text.uri            guifg=#5f87ff
+
+" ----- these are used in at least Dockerfiles
+highlight @property.dockerfile            guifg=#ffaff9
+highlight @punctuation.bracket.dockerfile guifg=#6DF2E5
+highlight @conditional.dockerfile         guifg=#fdcd36
+highlight @function.call.dockerfile       guifg=#f7fb53
+highlight @function.builtin.dockerfile    guifg=#f9f986
+highlight @parameter                      guifg=#7dcfff
 
 
 " ---------------------- glepnir/dashboard -------------------------------
