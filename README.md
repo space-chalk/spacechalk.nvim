@@ -8,6 +8,7 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 - [barbar] - tabline
 - [barbecue] - referenceline
 - [gitsigns] - git column
+- [lualine] - status line for neovim
 - [scrollbar.nvim] - scrollbar
 - [telescope] - file browser, currently working on this
 - [nvim-treesitter] - syntax highlighter, currently working on this

@@ -151,6 +151,13 @@ highlight GitSignsChange guifg=#f7fb53 ctermfg=3
 " if a line is deleted, the symbol in the gutter will be pink
 highlight GitSignsDelete guifg=#f289f9 ctermfg=1
 
+" ----------------------------- lualine ----------------------------------
+highlight LualineGitAdd    guifg=#a8fd57 ctermfg=2 guibg=#303030
+" if a line is modified, the symbol in lualine will be yellow
+highlight LualineGitChange guifg=#f7fb53 ctermfg=3 guibg=#303030
+" if a line is deleted, the symbol in lualine will be pink
+highlight LualineGitDelete guifg=#f289f9 ctermfg=1 guibg=#303030
+
 " ---------------------------- treesitter --------------------------------
 " highlight @variable            guifg=
 highlight @field               guifg=#6DF2E5
