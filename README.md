@@ -120,6 +120,7 @@ If you're using [nvim-treesitter] prior to neovim version `0.9.0`, I _highly_ re
 [barbar]: https://github.com/romgrk/barbar.nvim "tabline"
 [barbecue]: https://github.com/utilyre/barbecue.nvim "referenceline"
 [gitsigns]: https://github.com/lewis6991/gitsigns.nvim "git column"
+[lualine]: https://github.com/nvim-lualine/lualine.nvim "status line for neovim"
 [scrollbar.nvim]: https://github.com/petertriho/nvim-scrollbar "scrollbar"
 [telescope]: https://github.com/nvim-telescope/telescope.nvim "file list browser"
 [nvim-colorizer.lua]: https://github.com/norcalli/nvim-colorizer.lua "colorizer for neovim"
