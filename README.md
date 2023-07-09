@@ -3,15 +3,17 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 
 <img src="./img/nvim_example.png" style="width=800" alt="Screenshot of neovim editing a python file. It's showing off the Space Chalk Color Theme, featuring syntax highlight colors somewhere between pastel and neon on a very dark bluish purple background">
 
-## Supported features
+## Supported plugins
 
-- [barbar] - tabline
-- [barbecue] - referenceline
-- [gitsigns] - git column
-- [lualine] - status line for neovim
-- [scrollbar.nvim] - scrollbar
-- [telescope] - file browser, currently working on this
-- [nvim-treesitter] - syntax highlighter, currently working on this
+| Neovim plugin     | Description                    |
+|:------------------|:-------------------------------|
+| [barbar]          | tabline                        |
+| [barbecue]        | referenceline                  |
+| [gitsigns]        | git column                     |
+| [lualine]         | status line for neovim         |
+| [scrollbar.nvim]  | scrollbar                      |
+| [telescope]       | file browser, currently working on this         |
+| [nvim-treesitter] | syntax highlighter, currently working on this   |
 
 
 ## Installation
