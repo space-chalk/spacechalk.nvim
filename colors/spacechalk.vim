@@ -74,7 +74,7 @@ highlight clear Search
 highlight Search     guibg=#f7fb53 guifg=Black
 
 " Visual mode [visual, v-line, v-block] highlighting of any kind
-highlight Visual     guibg=#2569aa guifg=#a8fd57
+highlight Visual     guibg=#2569aa guifg=#a8fd5k
 
 " Folded code: collapsed blocks/regions of code
 highlight Folded     guibg=#3E3E3E guifg=#ffaff9
@@ -167,13 +167,17 @@ highlight @punctuation.special guifg=#f289f9
 highlight @constructor         guifg=#ffaff9
 
 " ----- used in html and markdown
-highlight @tag                 guifg=#7dcfff
-highlight @tag.delimiter       guifg=#ffb8a8
-highlight @tag.attribute       guifg=#d092fc
-highlight @text.title          guifg=#C1FF87 guibg=#414868 gui=bold
-highlight @text.literal        guifg=#fdcd36
-highlight @text.quote          guifg=#737aa2 cterm=italic gui=italic
-highlight @text.uri            guifg=#5f87ff
+highlight @tag                   guifg=#7dcfff
+highlight @tag.delimiter         guifg=#ffb8a8
+highlight @tag.attribute         guifg=#d092fc
+highlight @text.title            guifg=#a8fd57 guibg=#323232 gui=bold
+highlight @text.title.1.markdown guifg=#58ea48 guibg=#323232 gui=bold
+highlight @text.title.2.markdown guifg=#a8fd57 guibg=#323232 gui=bold
+highlight @text.title.3.markdown guifg=#C1FF87 guibg=#323232 gui=bold
+highlight @text.title.4.markdown guifg=#C1FF87 guibg=#323232
+highlight @text.literal          guifg=#fdcd36
+highlight @text.quote            guifg=#737aa2 cterm=italic gui=italic
+highlight @text.uri              guifg=#5f87ff
 
 " ----- these are used in at least Dockerfiles
 highlight @property.dockerfile            guifg=#ffaff9
