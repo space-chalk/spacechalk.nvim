@@ -191,6 +191,10 @@ highlight @function.call.dockerfile       guifg=#f7fb53
 highlight @function.builtin.dockerfile    guifg=#f9f986
 highlight @parameter                      guifg=#7dcfff
 
+" -- used in go template files, mostly with helm in mind
+highlight @property.gotmpl guifg=#7dcfff
+highlight gotplAction guifg=#d092fc
+
 
 " ---------------------- glepnir/dashboard -------------------------------
 highlight DashboardHeader guifg=#fdcd36 ctermfg=3
