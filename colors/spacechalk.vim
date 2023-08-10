@@ -195,6 +195,9 @@ highlight @parameter                      guifg=#7dcfff
 highlight @property.gotmpl guifg=#7dcfff
 highlight gotplAction guifg=#d092fc
 
+" -- json is weird
+highlight @label.json guifg=#6DF2E5
+
 
 " ---------------------- glepnir/dashboard -------------------------------
 highlight DashboardHeader guifg=#fdcd36 ctermfg=3
