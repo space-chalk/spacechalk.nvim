@@ -170,8 +170,8 @@ highlight @constructor         guifg=#ffaff9
 highlight @tag                          guifg=#7dcfff
 highlight @tag.delimiter                guifg=#ffb8a8
 highlight @tag.attribute                guifg=#d092fc
-highlight @text.title                   guifg=#7aa2f7 guibg=#323232 gui=bold
-highlight @text.title.1.markdown        guifg=#58ea48 guibg=#323232 gui=bold
+highlight @text.title                   guifg=#7aa2f7 guibg=#323232 gui=italic
+highlight @text.title.1.markdown        guifg=#58ea48 guibg=#323232 gui=italic
 highlight @text.title.1.marker.markdown guifg=#6DF2E5 guibg=#323232
 highlight @text.title.2.markdown        guifg=#a8fd57 guibg=#323232 gui=bold
 highlight @text.title.2.marker.markdown guifg=#6DF2E5 guibg=#323232
