@@ -172,13 +172,13 @@ highlight @tag.delimiter                guifg=#ffb8a8
 highlight @tag.attribute                guifg=#d092fc
 highlight @text.title                   guifg=#7aa2f7 guibg=#3E3E3E gui=italic
 highlight @text.title.1.markdown        guifg=#a3a8f8 guibg=#3E3E3E gui=italic
-highlight @text.title.1.marker.markdown guifg=#5f87ff guibg=#3E3E3E
-highlight @text.title.2.markdown        guifg=#7aa2f7 guibg=#3E3E3E gui=italic
-highlight @text.title.2.marker.markdown guifg=#5f87ff guibg=#3E3E3E
-highlight @text.title.3.markdown        guifg=#7aa2f7 guibg=#3E3E3E gui=bold
-highlight @text.title.3.marker.markdown guifg=#5f87ff guibg=#3E3E3E
-highlight @text.title.4.markdown        guifg=#7aa2f7 guibg=#323232 gui=bold
-highlight @text.title.4.marker.markdown guifg=#5f87ff guibg=#3E3E3E
+highlight @text.title.1.marker.markdown guifg=#7aa2f7 guibg=#3E3E3E
+highlight @text.title.2.markdown        guifg=#a3a8f8 guibg=#3E3E3E gui=italic
+highlight @text.title.2.marker.markdown guifg=#7aa2f7 guibg=#3E3E3E
+highlight @text.title.3.markdown        guifg=#a3a8f8 guibg=#3E3E3E gui=italic
+highlight @text.title.3.marker.markdown guifg=#7aa2f7 guibg=#3E3E3E
+highlight @text.title.4.markdown        guifg=#a3a8f8 guibg=#323232 gui=italic
+highlight @text.title.4.marker.markdown guifg=#7aa2f7 guibg=#3E3E3E
 highlight @text.literal                 guifg=#fdcd36
 highlight @text.quote                   guifg=#737aa2 cterm=italic gui=italic
 highlight @text.uri                     guifg=#5f87ff

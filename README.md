@@ -6,13 +6,13 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 
 ## Supported plugins
 
-| Neovim plugin     | Description                    |
-|:------------------|:-------------------------------|
-| [barbar]          | tabline                        |
-| [barbecue]        | referenceline                  |
-| [gitsigns]        | git column                     |
-| [lualine]         | status line for neovim         |
-| [scrollbar.nvim]  | scrollbar                      |
+| Neovim plugin     | Description                                     |
+|:------------------|:------------------------------------------------|
+| [barbar]          | tabline                                         |
+| [barbecue]        | referenceline                                   |
+| [gitsigns]        | git column                                      |
+| [lualine]         | status line for neovim                          |
+| [scrollbar.nvim]  | scrollbar                                       |
 | [telescope]       | file browser, currently working on this         |
 | [nvim-treesitter] | syntax highlighter, currently working on this   |
 
@@ -49,7 +49,7 @@ For more info on how to configure plugins via lazy, checkout [folke/lazy.nvim#-p
 
 ## Setup
 
-You can of course use vimscript instead of lua, but for those new to neovim, this is what you want to do:
+You can of course use Vim script instead of Lua, but for those new to neovim, this is what you want to do:
 
 ```lua
 -- you will want this after packer has been loaded
