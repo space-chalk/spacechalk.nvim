@@ -166,38 +166,19 @@ highlight @punctuation.bracket guifg=#f289f9
 highlight @punctuation.special guifg=#f289f9
 highlight @constructor         guifg=#ffaff9
 
-"      #ffaff9 light pink           |   
-"      #f289f9 neon magenta         |   #6DF2E5 cyan
-"      #d092fc pinkish purple       |   #2ac3de dark cyan
-"      #f2748a pale dark red        |   #5cc9fd sky blue
-"      #ff8d87 soft redish orange   |   #7dcfff lighter sky blue
-"      #ffb8a8 light redish orange  |   #5f87ff cornflower blue
-"      #fdcd36 light orange         |   #7aa2f7 light cornflower blue
-"      #b5b73e grayed out yellow 
-"      #f7fb53 bright yellow        |   #a3a8f8 medium purple
-"      #f9f986 soft yellow          |   #c0caf5 lightest purple
-"      #C1FF87 soft green           |   #bdd8ff off blueish white
-"      #a8fd57 lime green           |   #E8FBFF bright white
-"      #58ea48 darker lime green
-"      --------------------------------------------------------------
-"      #232336 blueish black        |   #585858 gray
-"      #1d2652 navy blue            |   #3E3E3E darker gray
-"      #2569aa darker blue          |   #323232 grayish black
-"      #3d59a1 medium bluish gray   |   #414868 dark blue gray
-"      #565f89 light blue grey 
 " ----- used in html and markdown
 highlight @tag                          guifg=#7dcfff
-highlight @tag.delimiter                guifg=#ffb8a8
+highlight @tag.delimiter                guifg=#ffb8a8 
 highlight @tag.attribute                guifg=#d092fc
-highlight @text.title                   guifg=#7aa2f7 guibg=#323232 gui=italic
+highlight @text.title                   guifg=#7aa2f7 guibg=#585858 gui=italic
 highlight @text.title.1.markdown        guifg=#a3a8f8 guibg=#3E3E3E gui=italic
-highlight @text.title.1.marker.markdown guifg=#6DF2E5 guibg=#323232
-highlight @text.title.2.markdown        guifg=#a8fd57 guibg=#323232 gui=bold
-highlight @text.title.2.marker.markdown guifg=#6DF2E5 guibg=#323232
-highlight @text.title.3.markdown        guifg=#C1FF87 guibg=#323232 gui=bold
-highlight @text.title.3.marker.markdown guifg=#6DF2E5 guibg=#323232
-highlight @text.title.4.markdown        guifg=#C1FF87 guibg=#323232
-highlight @text.title.4.marker.markdown guifg=#6DF2E5 guibg=#323232
+highlight @text.title.1.marker.markdown guifg=#5f87ff guibg=#3E3E3E
+highlight @text.title.2.markdown        guifg=#7aa2f7 guibg=#3E3E3E gui=italic
+highlight @text.title.2.marker.markdown guifg=#5f87ff guibg=#3E3E3E
+highlight @text.title.3.markdown        guifg=#7aa2f7 guibg=#3E3E3E gui=bold
+highlight @text.title.3.marker.markdown guifg=#5f87ff guibg=#3E3E3E
+highlight @text.title.4.markdown        guifg=#7aa2f7 guibg=#323232 gui=bold
+highlight @text.title.4.marker.markdown guifg=#5f87ff guibg=#3E3E3E
 highlight @text.literal                 guifg=#fdcd36
 highlight @text.quote                   guifg=#737aa2 cterm=italic gui=italic
 highlight @text.uri                     guifg=#5f87ff
