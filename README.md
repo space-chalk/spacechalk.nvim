@@ -1,4 +1,5 @@
 # 🛸 Space Chalk Theme for Neovim 🎨
+
 A theme trying to combine a love of neon space colors and pastel chalk board colors.
 
 <img src="./img/nvim_example.png" style="width=800" alt="Screenshot of neovim editing a python file. It's showing off the Space Chalk Color Theme, featuring syntax highlight colors somewhere between pastel and neon on a very dark bluish purple background">
@@ -20,11 +21,13 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 
 You should be able to install this fine with any neovim plugin manager.
 
+
 ### packer
 
 ```lua
 use {'space-chalk/spacechalk.nvim'}
 ```
+
 
 ### lazy
 
@@ -40,9 +43,12 @@ use {'space-chalk/spacechalk.nvim'}
     end,
 }
 ```
+
 For more info on how to configure plugins via lazy, checkout [folke/lazy.nvim#-plugin-spec](https://github.com/folke/lazy.nvim#-plugin-spec).
 
+
 ## Setup
+
 You can of course use vimscript instead of lua, but for those new to neovim, this is what you want to do:
 
 ```lua
@@ -50,7 +56,9 @@ You can of course use vimscript instead of lua, but for those new to neovim, thi
 vim.cmd.colorscheme("spacechalk")
 ```
 
+
 ### tmux
+
 If you are running neovim inside tmux:
 
 ```tmux
