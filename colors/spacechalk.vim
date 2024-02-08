@@ -168,11 +168,16 @@ highlight @constructor         guifg=#ffaff9
 
 " ----- used in html and markdown
 highlight @markup.heading.1.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=italic
+highlight @markup.heading.1.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
 highlight @markup.heading.2.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=italic
+highlight @markup.heading.2.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
 highlight @markup.heading.3.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=italic
+highlight @markup.heading.3.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
 highlight @markup.heading.4.markdown          guifg=#a3a8f8 guibg=#323232 gui=italic
+highlight @markup.heading.4.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
 highlight @markup.link.label.markdown_inline  guifg=#5f87ff
 highlight @markup.raw.markdown_inline         guifg=#fdcd36
+highlight @markup.list.markdown               guifg=#d092fc
 highlight @tag                                guifg=#7dcfff
 highlight @tag.delimiter                      guifg=#ffb8a8 
 highlight @tag.attribute                      guifg=#d092fc
