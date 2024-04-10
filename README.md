@@ -77,7 +77,7 @@ If you're new to vim colorschemes, here's some tips!
 To see hex colors highlighted in neovim, I recommend installing [nvim-colorizer.lua].
 
 ## Get the current highlighting for a word/filetype
-If you're already in a file in neovim, and the highlighting doesn't look quite right, 
+If you're already in a file in neovim, and the highlighting doesn't look quite right,
 but you're not sure what the variable is called, try some of these steps below:
 
 ### New in neovim `0.9.0` and up
@@ -86,7 +86,7 @@ You can now move your cursor over a word and then type `:Inspect` to get highlig
 If you find that a highlight from your LSP semantec highlights is incorrect, you can disable it with an autocommand. Here's an example of disabling the semantec highlighting for variables/parameters in a `Dockerfile`:
 
 ```lua
--- autocommand to disable lsp semantic highlighting for parameter/variable in 
+-- autocommand to disable lsp semantic highlighting for parameter/variable in
 -- Dockerfile because it competes with treesitter and is worse
 vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter"}, {
   pattern = {"Dockerfile"},
@@ -134,5 +134,5 @@ If you're using [nvim-treesitter] prior to neovim version `0.9.0`, I _highly_ re
 [scrollbar.nvim]: https://github.com/petertriho/nvim-scrollbar "scrollbar"
 [telescope]: https://github.com/nvim-telescope/telescope.nvim "file list browser"
 [nvim-colorizer.lua]: https://github.com/norcalli/nvim-colorizer.lua "colorizer for neovim"
-[nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter "treesitter for nvim" 
+[nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter "treesitter for nvim"
 [nvim-treesitter/playground]: https://github.com/nvim-treesitter/playground "debug tool for nvim-treesitter"

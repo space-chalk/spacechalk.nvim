@@ -4,14 +4,14 @@
 " License:      GPLv3
 " Notes: 🎨 Colours for this theme
 "      --------------------------------------------------------------
-"      #ffaff9 light pink           |   
+"      #ffaff9 light pink           |
 "      #f289f9 neon magenta         |   #6DF2E5 cyan
 "      #d092fc pinkish purple       |   #2ac3de dark cyan
 "      #f2748a pale dark red        |   #5cc9fd sky blue
 "      #ff8d87 soft redish orange   |   #7dcfff lighter sky blue
 "      #ffb8a8 light redish orange  |   #5f87ff cornflower blue
 "      #fdcd36 light orange         |   #7aa2f7 light cornflower blue
-"      #b5b73e grayed out yellow 
+"      #b5b73e grayed out yellow
 "      #f7fb53 bright yellow        |   #a3a8f8 medium purple
 "      #f9f986 soft yellow          |   #c0caf5 lightest purple
 "      #C1FF87 soft green           |   #bdd8ff off blueish white
@@ -22,7 +22,7 @@
 "      #1d2652 navy blue            |   #3E3E3E darker gray
 "      #2569aa darker blue          |   #323232 grayish black
 "      #3d59a1 medium bluish gray   |   #414868 dark blue gray
-"      #565f89 light blue grey 
+"      #565f89 light blue grey
 "      --------------------------------------------------------------
 
 let g:colors_name = "spacechalk"
@@ -175,11 +175,13 @@ highlight @markup.heading.3.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=it
 highlight @markup.heading.3.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
 highlight @markup.heading.4.markdown          guifg=#a3a8f8 guibg=#323232 gui=italic
 highlight @markup.heading.4.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
-highlight @markup.link.label.markdown_inline  guifg=#5f87ff
+highlight @markup.link.url.markdown_inline    guifg=#5f87ff
+highlight @markup.link.label.markdown_inline  guifg=#a3a8f8
+highlight @markup.link.label.markdown         guifg=#a3a8f8
 highlight @markup.raw.markdown_inline         guifg=#fdcd36
 highlight @markup.list.markdown               guifg=#d092fc
 highlight @tag                                guifg=#7dcfff
-highlight @tag.delimiter                      guifg=#ffb8a8 
+highlight @tag.delimiter                      guifg=#ffb8a8
 highlight @tag.attribute                      guifg=#d092fc
 highlight @text.title                         guifg=#7aa2f7 guibg=#3E3E3E gui=italic
 highlight @text.title.1.markdown              guifg=#a3a8f8 guibg=#3E3E3E gui=italic
@@ -239,7 +241,7 @@ highlight ScrollbarInfo guifg=#5cc9fd
 
 
 " ------------------------ barbar: tab bar ----------------------------
-highlight BufferCurrent        guifg=#5cc9fd     guibg=#565f89
+highlight BufferCurrent        guifg=#bdd8ff     guibg=#565f89
 highlight BufferCurrentIndex   guifg=#f289f9     guibg=#565f89
 highlight BufferCurrentMod     guifg=#f7fb53     guibg=#565f89
 highlight BufferCurrentSign    guibg=#565f89
