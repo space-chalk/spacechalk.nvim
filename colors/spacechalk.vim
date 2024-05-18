@@ -166,6 +166,10 @@ highlight @punctuation.bracket guifg=#f289f9
 highlight @punctuation.special guifg=#f289f9
 highlight @constructor         guifg=#ffaff9
 
+
+" --------------------- python highlights ------------------------
+highlight @function.call.python            guifg=#7aa2f7
+
 " ----- used in html and markdown
 highlight @markup.heading.1.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=italic
 highlight @markup.heading.1.marker.markdown   guifg=#7aa2f7 guibg=#3E3E3E
