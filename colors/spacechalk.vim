@@ -159,7 +159,7 @@ highlight LualineGitChange guifg=#f7fb53 ctermfg=3 guibg=#303030
 highlight LualineGitDelete guifg=#f289f9 ctermfg=1 guibg=#303030
 
 " ---------------------------- treesitter --------------------------------
-" highlight @variable            guifg=
+highlight @variable            guifg=#5cc9fd
 highlight @field               guifg=#6DF2E5
 highlight @property            guifg=#f7fb53
 highlight @punctuation.bracket guifg=#f289f9
