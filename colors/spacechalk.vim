@@ -150,6 +150,8 @@ highlight GitSignsAdd    guifg=#a8fd57 ctermfg=2
 highlight GitSignsChange guifg=#f7fb53 ctermfg=3
 " if a line is deleted, the symbol in the gutter will be pink
 highlight GitSignsDelete guifg=#f289f9 ctermfg=1
+" for showing the blame when your cursor is over a section or line
+highlight GitSignsCurrentLineBlame guifg=#a3a8f8
 
 " ----------------------------- lualine ----------------------------------
 highlight LualineGitAdd    guifg=#a8fd57 ctermfg=2 guibg=#303030
