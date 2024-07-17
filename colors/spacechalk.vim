@@ -170,7 +170,8 @@ highlight @constructor         guifg=#ffaff9
 
 
 " --------------------- python highlights ------------------------
-highlight @function.call.python            guifg=#7aa2f7
+highlight @function.call.python    guifg=#7aa2f7
+highlight @keyword.operator.python guifg=#f7fb53
 
 " ----- used in html and markdown
 highlight @markup.heading.1.markdown          guifg=#a3a8f8 guibg=#3E3E3E gui=italic
