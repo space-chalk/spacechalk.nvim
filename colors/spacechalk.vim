@@ -129,6 +129,8 @@ highlight Todo       guifg=#fdcd36 guibg=#2569aa
 highlight NonText    guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
+" YAML syntax highlighting
+highlight @boolean.yaml guifg=#5cc9fd
 
 " ------------------------------- Git Commit ---------------------------------
 "
