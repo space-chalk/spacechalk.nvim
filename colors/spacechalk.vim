@@ -279,7 +279,7 @@ highlight link BufferOffset       BufferTabpageFill
 
 
 " ----------------------- Grafana Alloy ----------------------------
-highlight alloyBlockName  guifg=#7aa2f7
+highlight alloyBlockName      guibg=#414868 guifg=#7dcfff
 hi def link alloyBlockLabel String
 hi def link alloyString     String
 hi def link alloyEscape     Special
