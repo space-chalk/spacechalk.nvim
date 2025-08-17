@@ -283,8 +283,8 @@ hi def link alloyBlockName  Structure
 hi def link alloyBlockLabel String
 hi def link alloyString     String
 hi def link alloyEscape     Special
-hi def link alloyMapSpecial        Special
-highlight alloyOperator guifg=#f7fb53
+highlight alloyMapSpecial guifg=#fdcd36
+highlight alloyOperator   guifg=#f7fb53
 hi def link alloyInt        Number
 hi def link alloyFloat      Number
 hi def link alloyConstant   Constant
