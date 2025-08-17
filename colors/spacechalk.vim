@@ -276,3 +276,17 @@ highlight link BufferCurrentIcon  BufferCurrent
 highlight link BufferVisibleIcon  BufferVisible
 highlight link BufferInactiveIcon BufferInactive
 highlight link BufferOffset       BufferTabpageFill
+
+
+" ----------------------- Grafana Alloy ----------------------------
+hi def link alloyBlockName  Structure
+hi def link alloyBlockLabel String
+hi def link alloyString     String
+hi def link alloyEscape     Special
+hi def link alloyMapSpecial        Special
+highlight alloyOperator guifg=#f7fb53
+hi def link alloyInt        Number
+hi def link alloyFloat      Number
+hi def link alloyConstant   Constant
+hi def link alloyComment    Comment
+hi def link alloyTodo       Todo
