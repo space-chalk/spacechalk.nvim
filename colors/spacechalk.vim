@@ -279,7 +279,6 @@ highlight link BufferOffset       BufferTabpageFill
 
 
 " ----------------------- Grafana Alloy ----------------------------
-hi def link alloyBlockLabel String
 hi def link alloyString     String
 hi def link alloyEscape     Special
 hi def link alloyInt        Number
@@ -289,8 +288,9 @@ hi def link alloyComment    Comment
 hi def link alloyTodo       Todo
 
 highlight alloyBlockName    guifg=#6DF2E5 cterm=italic gui=italic
-highlight alloyMapSpecial guifg=#f289f9
-highlight alloyListSpecial guifg=#fdcd36
-highlight alloyOperator   guifg=#f7fb53
-highlight alloyParameter guifg=#5cc9fd
-highlight alloyValue     guifg=#E8FBFF
+highlight alloyBlockLabel   guifg=#C1FF87 guibg=#414868
+highlight alloyMapSpecial   guifg=#f289f9
+highlight alloyListSpecial  guifg=#fdcd36
+highlight alloyOperator     guifg=#f7fb53
+highlight alloyParameter    guifg=#5cc9fd
+highlight alloyValue        guifg=#E8FBFF
