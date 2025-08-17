@@ -290,4 +290,4 @@ hi def link alloyFloat      Number
 hi def link alloyConstant   Constant
 hi def link alloyComment    Comment
 hi def link alloyTodo       Todo
-highlight alloyParameter guifg=#ffaff9
+highlight alloyParameter guifg=#5cc9fd
