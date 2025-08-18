@@ -130,9 +130,10 @@ highlight NonText    guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
 " YAML syntax highlighting
-highlight @boolean.yaml guifg=#5cc9fd
+highlight @boolean.yaml guifg=#f289f9
 highlight @number.yaml guifg=#6DF2E5
-highlight @punctuation.delimiter.yaml guifg=#f289f9
+highlight @punctuation.delimiter.yaml guifg=#fdcd36
+highlight @property.yaml guifg=#5cc9fd
 
 " ------------------------------- Git Commit ---------------------------------
 "
