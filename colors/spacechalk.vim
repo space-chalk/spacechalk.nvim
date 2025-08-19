@@ -281,6 +281,7 @@ highlight link BufferOffset       BufferTabpageFill
 
 
 " ----------------------- Grafana Alloy ----------------------------
+"  assumes you're using https://github.com:jessebot/vim-alloy.git
 hi def link alloyString     String
 hi def link alloyEscape     Special
 hi def link alloyInt        Number
