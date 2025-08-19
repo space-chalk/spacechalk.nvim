@@ -292,7 +292,8 @@ hi def link alloyTodo       Todo
 highlight alloyBlockName    guifg=#6DF2E5 guibg=#414868
 highlight alloyBlockLabel   guifg=#C1FF87 cterm=italic gui=italic
 highlight alloyBlockBrace   guifg=#f289f9
-highlight alloyListSpecial  guifg=#fdcd36
+highlight alloyParentheses  guifg=#fdcd36
+highlight alloyBrackets     guifg=#fdcd36
 highlight alloyOperator     guifg=#f7fb53
+highlight alloyPeriod       guifg=#f7fb53
 highlight alloyAttribute    guifg=#5cc9fd
-highlight alloyValue        guifg=#E8FBFF
