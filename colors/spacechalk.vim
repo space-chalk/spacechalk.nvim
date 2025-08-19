@@ -294,5 +294,5 @@ highlight alloyBlockLabel   guifg=#C1FF87 guibg=#414868
 highlight alloyMapSpecial   guifg=#f289f9
 highlight alloyListSpecial  guifg=#fdcd36
 highlight alloyOperator     guifg=#f7fb53
-highlight alloyParameter    guifg=#5cc9fd
+highlight alloyAttribute    guifg=#5cc9fd
 highlight alloyValue        guifg=#E8FBFF
