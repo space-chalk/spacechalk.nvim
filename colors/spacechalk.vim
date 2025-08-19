@@ -295,6 +295,7 @@ highlight alloyBlockLabel   guifg=#C1FF87 cterm=italic gui=italic
 highlight alloyBlockBrace   guifg=#f289f9
 highlight alloyParentheses  guifg=#7aa2f7
 highlight alloyBrackets     guifg=#ff8d87
+highlight alloyQuotes       guifg=#fdcd36
 highlight alloyOperator     guifg=#f7fb53
 highlight alloyPeriod       guifg=#d092fc
 highlight alloyAttribute    guifg=#5cc9fd
