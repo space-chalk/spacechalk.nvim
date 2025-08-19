@@ -289,11 +289,11 @@ hi def link alloyConstant   Constant
 hi def link alloyComment    Comment
 hi def link alloyTodo       Todo
 
-highlight alloyBlockName    guifg=#6DF2E5 guibg=#414868
+highlight alloyBlockName    guifg=#6DF2E5 guibg=#3E3E3E
 highlight alloyBlockLabel   guifg=#C1FF87 cterm=italic gui=italic
 highlight alloyBlockBrace   guifg=#f289f9
 highlight alloyParentheses  guifg=#fdcd36
-highlight alloyBrackets     guifg=#fdcd36
+highlight alloyBrackets     guifg=#ff8d87
 highlight alloyOperator     guifg=#f7fb53
-highlight alloyPeriod       guifg=#f7fb53
+highlight alloyPeriod       guifg=#d092fc
 highlight alloyAttribute    guifg=#5cc9fd
