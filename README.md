@@ -6,15 +6,16 @@ A theme trying to combine a love of neon space colors and pastel chalk board col
 
 ## Supported plugins
 
-| Neovim plugin     | Description                                     |
-|:------------------|:------------------------------------------------|
-| [barbar]          | tabline                                         |
-| [barbecue]        | referenceline                                   |
-| [gitsigns]        | git column                                      |
-| [lualine]         | status line for neovim                          |
-| [scrollbar.nvim]  | scrollbar                                       |
-| [telescope]       | file browser, currently working on this         |
-| [nvim-treesitter] | syntax highlighter, currently working on this   |
+| Neovim plugin     | Description                                   |
+|:------------------|:----------------------------------------------|
+| [barbar]          | tabline                                       |
+| [barbecue]        | referenceline                                 |
+| [gitsigns]        | git column                                    |
+| [lualine]         | status line for neovim                        |
+| [scrollbar.nvim]  | scrollbar                                     |
+| [telescope]       | file browser, currently working on this       |
+| [nvim-treesitter] | syntax highlighter, currently working on this |
+| [vim-alloy]       | Grafana alloy syntax highlighting             |
 
 
 ## Installation
@@ -126,6 +127,11 @@ If you're using [nvim-treesitter] prior to neovim version `0.9.0`, I _highly_ re
 :TSHighlightCapturesUnderCursor
 ```
 
+You cana also do:
+```vim
+:Inspect
+```
+
 <!-- external links -->
 [barbar]: https://github.com/romgrk/barbar.nvim "tabline"
 [barbecue]: https://github.com/utilyre/barbecue.nvim "referenceline"
@@ -136,3 +142,4 @@ If you're using [nvim-treesitter] prior to neovim version `0.9.0`, I _highly_ re
 [nvim-colorizer.lua]: https://github.com/norcalli/nvim-colorizer.lua "colorizer for neovim"
 [nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter "treesitter for nvim"
 [nvim-treesitter/playground]: https://github.com/nvim-treesitter/playground "debug tool for nvim-treesitter"
+[vim-allow]: "https://github.com/jessebot/vim-alloy"
